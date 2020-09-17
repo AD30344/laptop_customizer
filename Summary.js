@@ -1,6 +1,8 @@
 import React from './React';
 import App from './App';
 import './App.css';
+import './index.html';
+import './index.css';
 
 const summary = Object.keys(this.state.selected).map((feature, idx) => {
     const featureHash = feature + '-' + idx;
